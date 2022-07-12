@@ -17,8 +17,6 @@ class FlightTableSeeder extends Seeder
     {
         $airport_ids = Airport::pluck('id')->toArray();
 
-
-
         for ($i=0; $i < 5 ; $i++) { 
             $newFlight = new Flight();
             $newFlight->code_departure = $faker->randomElement($airport_ids);
