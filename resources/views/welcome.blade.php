@@ -29,11 +29,8 @@
 {{--                             @foreach($airports as $airport)
                                 <p class="card-title">Airport id: <small class="text-muted">{{ $airport->name }}</small></p>
                             @endforeach --}}
-
-                            <h1>{{ $flight->code_departure->name }}</h1>
                         </div>
                     </div>
-
                 @endforeach
 
                 {{-- @dd($flights); --}}
